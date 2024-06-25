@@ -44,4 +44,4 @@ const decr = 10;
 // console.log(!something); // returns false
 // console.log(!something2); // returns true
 
-console.log(2 + 2 * 2 !== "6");
+// console.log(2 + 2 * 2 !== "6");
