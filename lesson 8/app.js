@@ -1,6 +1,6 @@
-'use strict'
+"use strict";
 
-const numberOfSeries = +prompt("Nechta serial ko'rdingiz?", '')
+const numberOfSeries = +prompt("Nechta serial ko'rdingiz?", "");
 
 const seriesDB = {
   count: numberOfSeries,
@@ -8,14 +8,15 @@ const seriesDB = {
   actors: {},
   genres: [],
   private: false,
-}
+};
 
-const a = prompt("Oxirgi ko'rgan serialingizni kiriting", '')
-const b = prompt('Necha baxo berasiz', '')
-const c = prompt("Oxirgi ko'rgan serialingizni kiriting", '')
-const d = prompt('Necha baxo berasiz', '')
+const a = prompt("Oxirgi ko'rgan serialingizni kiriting", "");
+const b = prompt("Necha baxo berasiz", "");
+const c = prompt("Oxirgi ko'rgan serialingizni kiriting", "");
+const d = prompt("Necha baxo berasiz", "");
 
-seriesDB.series[a] = b
-seriesDB.series[c] = d
+seriesDB.series[a] = b;
+seriesDB.series[c] = d;
 
-console.log(seriesDB)
+console.log(seriesDB);
+
