@@ -18,12 +18,43 @@
       <div class="row">
         <label class="title">SHAKILLAR</label>
         <ul class="options">
-          <li class="option"></li>
+          <li class="option tool" id="recrangle">
+            <ion-icon name="square-outline"></ion-icon>
+            <span>To'rtburchak</span>
+          </li>
+          <li class="option tool" id="circle">
+            <ion-icon name="ellipse-outline"></ion-icon>
+            <span>Doira</span>
+          </li>
+          <li class="option tool" id="triangle">
+            <ion-icon name="triangle-outline"></ion-icon>
+            <span>Uchburchak</span>
+          </li>
+          <li class="option" id="recrangle">
+            <input type="checkbox" id="fill-color">
+            <label for="fill-color">Rang To'ldirish</label>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <label class="title">VARIANTLAR</label>
+        <ul class="options">
+          <li class="option tool active" id="brush">
+            <ion-icon name="brush-outline"></ion-icon>
+            <span>Brush</span>
+          </li>
+          <li class="option tool active" id="brush">
+            <ion-icon name="brush-outline"></ion-icon>
+            <span>Brush</span>
+          </li>
         </ul>
       </div>
     </section>
   </div>
 
+  <!-- connect ionicons to html -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <!-- connect js file with html -->
   <script src="app.js"></script>
 </body>
