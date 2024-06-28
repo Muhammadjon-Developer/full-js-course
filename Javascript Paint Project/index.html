@@ -5,11 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paint Project using html, css and javascript</title>
   <!-- connecting css file with html -->
-   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   
-
   <div class="container">
     <section class="drawing-board">
       <canvas></canvas>
@@ -19,15 +18,15 @@
         <label class="title">SHAKILLAR</label>
         <ul class="options">
           <li class="option tool" id="recrangle">
-            <ion-icon name="square-outline"></ion-icon>
+            <img src="./icons/regtangle.svg" alt="rectangle"  style="width: 1rem; height: 1rem;">
             <span>To'rtburchak</span>
           </li>
           <li class="option tool" id="circle">
-            <ion-icon name="ellipse-outline"></ion-icon>
+            <img src="./icons/circle.svg" alt="circle"  style="width: 14px; height: 14px;">
             <span>Doira</span>
           </li>
           <li class="option tool" id="triangle">
-            <ion-icon name="triangle-outline"></ion-icon>
+            <img src="./icons//triangle.svg" alt="triangle"  style="width: 1rem; height: 1rem;">
             <span>Uchburchak</span>
           </li>
           <li class="option" id="recrangle">
@@ -40,21 +39,37 @@
         <label class="title">VARIANTLAR</label>
         <ul class="options">
           <li class="option tool active" id="brush">
-            <ion-icon name="brush-outline"></ion-icon>
-            <span>Brush</span>
+            <img src="./icons/brush.svg" alt="brush" style="width: 1rem; height: 1rem;">
+            <span>Brush</span>  
           </li>
-          <li class="option tool active" id="brush">
-            <ion-icon name="brush-outline"></ion-icon>
-            <span>Brush</span>
+          <li class="option tool" id="eraser">
+            <img src="./icons//eraser.svg" alt="eraser"  style="width: 1rem; height: 1rem;">
+            <span>O'chirg'ich</span>
+          </li>
+          <li class="option">
+            <input type="range" id="size-slider" min="1" max="30" value="5">
           </li>
         </ul>
+      </div>
+      <div class="row colors">
+        <label class="title">Ranglar</label>
+        <ul class="options">
+          <li class="option"></li>
+          <li class="option selected"></li>
+          <li class="option"></li>
+          <li class="option"></li>
+          <li class="option">
+            <input type="color" id="color-picker" value="#4a98f7">
+          </li>
+        </ul>
+      </div>
+      <div class="row buttons">
+        <button class="clear-canvas">O'chirish</button>
+        <button class="save-img">Saqlash</button>
       </div>
     </section>
   </div>
 
-  <!-- connect ionicons to html -->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <!-- connect js file with html -->
   <script src="app.js"></script>
 </body>
