@@ -31,7 +31,7 @@ toolBtns.forEach(btn => {
   btn.addEventListener("click", () => {
     document.querySelector(".options .active").classList.remove("active");
     btn.classList.add("active");  
-    console.log(btn.id); 
+    console.log(btn.id);
   })
 })
 
