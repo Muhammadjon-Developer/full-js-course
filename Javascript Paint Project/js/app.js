@@ -1,39 +1,65 @@
+// GLOBAL VARIABLES
 const canvas = document.querySelector("canvas"),
   toolBtns = document.querySelectorAll(".tool");
 
+// VARIABLES 
 let ctx = canvas.getContext("2d"),
   isDrawing = false;
-  brushWidth = 5;
+  brushWidth = 5, 
+  selectedTool = "brush",
+  prevMouseX,
+  prevMouseY 
 
+// SET CANVAS WIDTH AND HEIGHT
 window.addEventListener("load", () => {
   canvas.width = canvas.offsetWidth;
   canvas.height = canvas.offsetHeight;
-})
+});
 
-const startDraw = () => {
+// START DRAWING
+const startDraw = e => {
   isDrawing = true;
+  prevMouseX
   ctx.beginPath();
   ctx.lineWidth = brushWidth;
+};
+
+// DRAW RECTANGLE
+const drawRectangle = e => {
 
 };
 
+// DRAWING
 const drawing = e => {
-  if(!isDrawing) return
-  ctx.lineTo(e.offsetX, e.offsetY);
-  ctx.stroke();
-}
+  if (!isDrawing) return;
 
-const stopDraw = () => {
-  isDrawing = false;
-}
+  switch (selectedTool) {
+    case "brush":
+      ctx.lineTo(e.offsetX, e.offsetY);
+      ctx.stroke();
+      break;
+    case "rectangle":
+      drawRectangle(e)
+      break;
+    default:
+      break;
+  }
+};
 
-toolBtns.forEach(btn => {
+// TOOLS BTN AND SET TO VARIABLES SELECTED TOOL
+toolBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
     document.querySelector(".options .active").classList.remove("active");
-    btn.classList.add("active");  
-    console.log(btn.id);
-  })
-})
+    btn.classList.add("active");
+    selectedTool = btn.id;
+    console.log(`Selected tool ${selectedTool}`);
+  });
+});
+   
+// STOP DRAWING 
+const stopDraw = () => {
+  isDrawing = false;
+};
 
 canvas.addEventListener("mousedown", startDraw);
 canvas.addEventListener("mousemove", drawing);
