@@ -30,18 +30,38 @@
 
 
 // RETURN = stop's function working and returns a result
-function calc(a, b) {
-  return a + b;
-}
+// function calc(a, b) {
+//   return a + b;
+// }
 
-// console.log(calc(10, 5));
-// console.log(calc(65, 89));
+// // console.log(calc(10, 5));
+// // console.log(calc(65, 89));
 
-const sumOfAandB = calc(10, 10);
-console.log(sumOfAandB);
+// const sumOfAandB = calc(10, 10);
+// console.log(sumOfAandB);
 
 
 // FUNCTION TYPES
 
 // 1. - Function Declaration we every time used this function on the top 👆 | Example: function foo() {code...} - Before our script code starts running will be created before and we it something you call before the function possible
 
+// const sumOfAandB = calc(10, 10);
+// console.log(sumOfAandB);
+
+// function calc(a, b) {
+//   return a + b;
+// }
+
+// 2. - Function Expression | Example: let foo = function() {code...} - When our code to this function will be created upon arrival, only is called after the function. Call this function after it created. 
+
+// const logger = function() {
+//   console.log("Hello world!");
+// }
+
+// logger();
+
+
+// 3. - Arrow Function | Example: const foo = () => {} - It does not exist own context this. Call this function after it created.
+
+const calc = (a, b) => a + b;
+console.log(calc(5, 2));
