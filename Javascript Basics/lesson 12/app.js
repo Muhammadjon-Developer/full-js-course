@@ -68,14 +68,20 @@
 // Global Object - Math = this object contains number methods. We usually use this object when we use some number methods
 
 // 1 - round() - bu bizga sonlarimmizni yaxlidlashga yordam beradi
-const num = 10.9;
-console.log(Math.round(num)); // javob 11
+// const num = 10.9;
+// console.log(Math.round(num)); // javob 11
 
-const num2 = 10.5;
-console.log(Math.round(num2)); // javob 11
+// const num2 = 10.5;
+// console.log(Math.round(num2)); // javob 11
 
-const num3 = 10.3;
-console.log(Math.round(num3)); // javob 10 
+// const num3 = 10.3;
+// console.log(Math.round(num3)); // javob 10 
 
 
+// 2 - parseInt() - bu metod ma'lumot turini number ga o'zgartirib butun sonni ko'rsatadi
+// const borderWidth = "10.7px";
+// console.log(parseInt(borderWidth)); // javob 10
 
+// 3 - parseFloat() - bu metod ma'lumot turini number ga o'zgartirib yozgan sonimizni o'zgarishlarsiz ko'rsatadi
+// const borderHeight = "10.7px";
+// console.log(parseFloat(borderHeight)); // javob 10.7
