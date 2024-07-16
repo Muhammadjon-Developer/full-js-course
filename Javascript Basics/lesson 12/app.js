@@ -42,9 +42,40 @@
 
 
 // 5 - slice() 
-const sayHelloWorld = "Hello world";
+// const sayHelloWorld = "Hello world";
 
-console.log(sayHelloWorld.slice(0, 6)); // Returns Hello
-console.log(sayHelloWorld.slice(6, 11)); // Returns world
-console.log(sayHelloWorld.slice(6)); // Returns world
-console.log(sayHelloWorld.slice(-5, -1)); // Returns worl we don't use this slice with negative numbers every time
+// console.log(sayHelloWorld.slice(0, 6)); // Returns Hello
+// console.log(sayHelloWorld.slice(6, 11)); // Returns world
+// console.log(sayHelloWorld.slice(6)); // Returns world
+// console.log(sayHelloWorld.slice(-5, -1)); // Returns worl we don't use this slice with negative numbers every time
+
+// 6 - substring()
+// const substring = "Substring method";
+
+// console.log(substring.substring(0, 9)) // Returns Substring 
+// console.log(substring.substring(-5, -9)); // Returns nothing because we can't use negative numbers in substring 
+
+// 7 - substr() - this method little bit old, in current days we don't need to use this
+// const substr = "Substr method";
+
+// console.log(substr.substr(0, 6)); // Returns Substr 
+
+
+// ENDI BARCHA NARSANI O'ZBEKCHA YOZAMAN KAROCHI TUSHUNGAN TUSHUNDI TUSHUNMAGAN PEREVODCHIKDAN TARJIMA QILAVERSIN 👌
+
+// RAQAM METODLARI
+
+// Global Object - Math = this object contains number methods. We usually use this object when we use some number methods
+
+// 1 - round() - bu bizga sonlarimmizni yaxlidlashga yordam beradi
+const num = 10.9;
+console.log(Math.round(num)); // javob 11
+
+const num2 = 10.5;
+console.log(Math.round(num2)); // javob 11
+
+const num3 = 10.3;
+console.log(Math.round(num3)); // javob 10 
+
+
+
