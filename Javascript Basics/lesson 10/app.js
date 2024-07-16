@@ -14,7 +14,7 @@ let startNum = 1;
 //   startNum++;
 // }while(startNum <= 10) 
 
-// Third - the most used and popular method
+// 3 chinchi usul - eng ommabop usul
 for (let i = 1; i <= 10; i++) {
   if(i === 8) {
     // break;

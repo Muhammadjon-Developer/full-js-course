@@ -27,21 +27,21 @@ const decr = 10;
 // console.log(8 % 3); // % returns the residual = 2
 
 // console.log(5 * 5 == 25); // == - compares the value of numbers
-// console.log(5 * 5 === "25"); // === - compares the value of numbers and data types
+// console.log(5 * 5 === "25"); // === - ma'lumot turi va raqam lar natijasini tekshiradi
 
 // && = and , || = or
 // const isAge = true;
 // const isClose = true;
 // const isChecked = false;
 
-// console.log(isAge && isClose && isChecked); // returns false
-// console.log(isAge || isClose || isChecked); // returns true
+// console.log(isAge && isClose && isChecked); // false qaytaradi
+// console.log(isAge || isClose || isChecked); // true  qaytaradi
 
-// // ! - negation sign
+// // ! - imkor belgisi
 // const something = true;
 // const something2 = false;
 
-// console.log(!something); // returns false
-// console.log(!something2); // returns true
+// console.log(!something); // false qaytaradi
+// console.log(!something2); // true qaytaradi
 
 // console.log(2 + 2 * 2 !== "6");

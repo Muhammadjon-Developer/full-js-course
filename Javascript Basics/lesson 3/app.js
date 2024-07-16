@@ -1,4 +1,4 @@
-// we use use strict to don't make mistakes in our code with writing old code if you write old code and if you write use strict in your file this file shows a error in your code if code is old. If you paste use strict to your 1 function this function will working in strickt mode if you paste the use strict to your code at the top use strict will work with all functions and codes
+// Agar eski kodni yozsangiz, eski kodni yozishda xato qilmaslik uchun use strict dan foydalanamiz va agar siz faylga yozsangiz use strict bu faylda kod eski bo'lsa, kodingizda xatolik ko'rsatiladi. Use strict-ni 1-funksiyangizga joylashtirsangiz, bu funksiya qat'iy rejimda ishlaydi, agar siz yuqoridagi kodingizga use strict-ni qo'ysangiz, use strict barcha funksiyalar va kodlar bilan ishlaydi.
 
 "use strict";
 

@@ -1,19 +1,19 @@
-Homework:
-1-) Create a variable named numberOfSeries and add to it "How many series have you watched?" put the answer.
+Uy ga vazifa:
+1-) numberOfSeries nomli oʻzgaruvchi yarating va unga “Qancha seriyani koʻrgansiz?” qoʻshing. javobni qo'ying.
 
-2-) Create an object called seriesDB and write the following properties to it:
-- count - the answer to the first question should be put here.
-- series- write an empty object here.
-- actors - place the main object.
-- genres - put an empty array here
-- private - here must be a boolean data type, the initial value should be false.
+2-) seriesDB nomli obyekt yarating va unga quyidagi xossalarni yozing:
+- hisoblash - birinchi savolga javob bu erda qo'yilishi kerak.
+- qator- bu yerga bo'sh ob'ektni yozing.
+- aktyorlar - asosiy ob'ektni joylashtiring.
+- janrlar - bu erda bo'sh massiv qo'ying
+- xususiy - bu erda mantiqiy ma'lumotlar turi bo'lishi kerak, dastlabki qiymat noto'g'ri bo'lishi kerak.
 
-3-) Ask the user this question twice:
-- "The last TV series you watched?"
-- "How much do you pay?"
-You must place the answer in these questions into variables.
-Place the responses in the series object in the following format:
-series: {
-  "Ahmad ibn Hanbal": "10",
-  "Umar ibn Khattab": "10"
+3-) Foydalanuvchiga ushbu savolni ikki marta bering:
+- "Oxirgi ko'rgan serialingiz?"
+- "Siz qancha to'laysiz?"
+Ushbu savollarga javobni o'zgaruvchilarga joylashtirishingiz kerak.
+Javoblarni ketma-ket ob'ektga quyidagi formatda joylashtiring:
+seriya: {
+ “Ahmad ibn Hanbal”: “10”,
+ “Umar ibn Xattob”: “10”
 }

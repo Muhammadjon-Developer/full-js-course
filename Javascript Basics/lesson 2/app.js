@@ -3,15 +3,14 @@
 // console.log(number) // 10
 
 // number = 20;
-// console.log(number) result of the number is 20 because we changed the value we can change values of let ✅
-
+// console.log(number) number o'zgaruvchisining natijasi 20 ga teng chunki biz let ni o'zgartira olamiz ✅
 // let number = 10;
 // const borderColor = 'red';
 
-// borderColor = 'blue' // this is not avaible to change values of constants = ERROR ❌
+// borderColor = 'blue' // konstantalarni o'zgartirish mumkin emas = ERROR ❌
 
 // const person = {
-//   name: 'Muhammadjon'   // don't thing about this is an object you can know about in next lessons | The reason why i am using object to explain you that you can change the value of constants and how:
+//   name: 'Muhammadjon'   
 // }
 
 // person.name = 'Bob';
@@ -19,8 +18,8 @@
 
 
 
-// Old version
+// Eski versiya
 
-console.log(clientName) // we will get undifined if you don't know what is "undifined" you can understand it in next lesson there is not logic, if we use let, or const in the place of var we will got an error but we getting undifined so guys i don't recommend you to use this var
+console.log(clientName) // biz olamiz "undifined" agar biz var o'rnida let yoki const dan foydalansak, xatoga yo'l qo'yamiz, lekin biz undifined olamiz shunga var dan foydalanish tavsiya etilmaydi
  
-var clientName = 'John';    // i just recommed you don't use var in this days because it very old, and var works every time
+var clientName = 'John';
