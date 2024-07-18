@@ -1,0 +1,6 @@
+Uyga Vazifa.
+1-) showDb nomli funksiya yozing, va ushbu funksiya bizga private
+tekshirsin. Agarda private - false bo'lsa bizga hamma ma'lumot ko'rsatilsin, aks xolda yoq.
+
+2-) writeGenres nomli funksiya yozing ushbu funksiya 3 marta foydalanuvchidan
+"Yaxshi ko'rgan janringiz ${son ketma ketlikda}". Hamma javobni genres massiviga joylang.

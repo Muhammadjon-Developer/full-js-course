@@ -39,7 +39,7 @@ function rememberMySeries() {
   }
 }
 
-rememberMySeries();
+// rememberMySeries();
 
 function detectLevelSeries() {
   if (seriesDB.count < 5) {
@@ -55,4 +55,19 @@ function detectLevelSeries() {
 
 detectLevelSeries();
 
-console.log(seriesDB);
+function showDb(hidden) {
+  if(!hidden) {
+    console.log(seriesDB);
+  }
+}
+
+showDb(seriesDB.private);
+
+function writeGenres () {
+  for(let i = 0; i <= 2; i++) {
+    const genre = prompt(`Yaxshi ko'rgan janringiz ${i + 1}`);
+    seriesDB.genres[i] = genre;
+  }
+}
+
+writeGenres();
