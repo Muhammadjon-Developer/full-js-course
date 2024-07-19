@@ -5,12 +5,14 @@ const theif = {
   height:  1.7,
   colors: {
     hair: "gray",
-    style: "curley",
+    style: "curley"
   }
 }
 
-console.log(theif.height);
+// console.log(theif.height); // 1.7
 
-delete theif.jacket; // o'chirish metodi - object dan biror bir narsa o'chirib yuborish
+// Metodlar:
 
-console.log(theif);
+// delete theif.jacket; // o'chirish metodi - object dan biror bir narsa o'chirib yuborish
+console.log(Object.keys(theif).length); // obyektimizning kalit so'zlarini massivga olib beradi
+
