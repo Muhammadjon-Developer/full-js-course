@@ -1,0 +1,19 @@
+Uy ga vazifa:
+1-) numberOfSeries nomli oʻzgaruvchi yarating va unga “Qancha seriyani koʻrgansiz?” qoʻshing. javobni qo'ying.
+
+2-) seriesDB nomli obyekt yarating va unga quyidagi xossalarni yozing:
+- hisoblash - birinchi savolga javob bu erda qo'yilishi kerak.
+- qator- bu yerga bo'sh ob'ektni yozing.
+- aktyorlar - asosiy ob'ektni joylashtiring.
+- janrlar - bu erda bo'sh massiv qo'ying
+- xususiy - bu erda mantiqiy ma'lumotlar turi bo'lishi kerak, dastlabki qiymat noto'g'ri bo'lishi kerak.
+
+3-) Foydalanuvchiga ushbu savolni ikki marta bering:
+- "Oxirgi ko'rgan serialingiz?"
+- "Siz qancha to'laysiz?"
+Ushbu savollarga javobni o'zgaruvchilarga joylashtirishingiz kerak.
+Javoblarni ketma-ket ob'ektga quyidagi formatda joylashtiring:
+seriya: {
+ “Ahmad ibn Hanbal”: “10”,
+ “Umar ibn Xattob”: “10”
+}
