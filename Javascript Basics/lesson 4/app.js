@@ -21,9 +21,9 @@ const isCircleEarth = true;
 // null
 // console.log(clientAge) // error: clientAge is not defined = null because we did not create the clientAge variable
 
-// undifined
+// undefined
 let und;
-// console.log(und); // javob: undifined chunki bizning o'zgaruvchimizning qiymati yo'q
+// console.log(und); // javob: undefined chunki bizning o'zgaruvchimizning qiymati yo'q
 
 // Object
 const thief = {
@@ -41,8 +41,7 @@ const thief = {
 // console.log(thief['jacket']) // jacket kalitining qiymatini olish - method - 2
 // console.log(thief['isLong']) // isLong kalitining qiymatini olish - method - 2    BETTER TO USE FIRST METHOD
 
-
 // Array
 //                0       1        2      3  4   5
-const colors = ["red", "black", "green", 10, [], {}];   // massiv doim 0 dan boshlab sanaydi
-console.log(colors[0]);  // javob red
+const colors = ["red", "black", "green", 10, [], {}]; // massiv doim 0 dan boshlab sanaydi
+console.log(colors[0]); // javob red
