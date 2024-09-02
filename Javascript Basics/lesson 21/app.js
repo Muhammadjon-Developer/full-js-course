@@ -23,7 +23,7 @@ console.log(typeof (parseInt("7"))); */
 
 // ESLAB QOLING: 0, "", null, undefined, NaN = xar doim false qaytaradi
 
-let age = 0;
+/* let age = 0;
 
 if (age) {
   console.log("0");
@@ -41,5 +41,5 @@ if (age) {
 
 console.log(typeof Boolean("5"))
 
-console.log(typeof !!"5");
+console.log(typeof !!"5");  */
 
