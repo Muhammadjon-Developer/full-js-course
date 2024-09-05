@@ -1,0 +1,15 @@
+Uyga Vazifa
+
+1-) Bitta funksiya yozing, qachonki submit knopka bosilganda sahifa qayta
+yuklanmasligi kerak. Va inpugga yozilgan serialni seriesDB.series massivga qo'shing.
+Inputni ichidagi qiymatni Olish uchun input.value yordamida oling.  
+
+2-) Agarda serialni nomi 18ta xarfdan ko'p bo'lsa uni kesib ... belgini qo'ying.
+
+3-) Agarda formada checkbox done ya'ni ✅ belgisi qo'yilgan bo'lsa, consolega "Sevimli serial qo'shilidi" habarini ko'rsating.
+
+4-) Hamma seriallar alfavit ketma ketligida bo'lsin.
+
+
+Ixtiyoriy vazifa:
+5-) Ahlat qutisiga bosilganda 🗑️ o'sha serial o'chish kerak.
