@@ -1,11 +1,11 @@
-'use strict'
+"use strict";
 
-const wrapper = document.querySelector('.btn-block'),
-  btns = document.querySelectorAll('button')
+const wrapper = document.querySelector(".btn-block"),
+  btns = document.querySelectorAll("button");
 
-btns[0].addEventListener('click', () => {
-  btns[1].classList.toggle('red')
-})
+btns[0].addEventListener("click", () => {
+  btns[1].classList.toggle("red");
+});
 
 // wrapper.addEventListener('click', (event) => {
 //   if (event.target && event.target.classList.contains('red')) {
@@ -14,11 +14,12 @@ btns[0].addEventListener('click', () => {
 // })
 
 // matches
-wrapper.addEventListener('click', (event) => {
-  if (event.target && event.target.classList.matches('button.red')) { // matches = o'xshashlik
-    console.log('btn clicked')
+wrapper.addEventListener("click", (event) => {
+  if (event.target && event.target.classList.matches("button.red")) {
+    // matches = o'xshashlik
+    console.log("btn clicked");
   }
-})
+});
 
 // btns.forEach((item) => {
 //   item.addEventListener('click', () => {
@@ -26,6 +27,6 @@ wrapper.addEventListener('click', (event) => {
 //   })
 // })
 
-const btn = document.createElement('button')
-btn.classList.add('red')
-wrapper.append(btn)
+const btn = document.createElement("button");
+btn.classList.add("red");
+wrapper.append(btn);
