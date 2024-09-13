@@ -51,12 +51,20 @@ window.addEventListener("DOMContentLoaded", () => {
   // console.log(Date.parse("2024-12-30")); // shu data (vaqt) gacha qolgan vaqt millisekundlarda
 
   function getTimeReamaining(endTime) {
-    const timer = Date.parse(endTime) - Date.parse(new Date()), // biz bergan vaqtdan hozirgi vaqtni ayirish
-      days = Math.floor(timer / (1000 * 60 * 60 * 24)), // = kun,
-      hours = Math.floor((timer / (1000 * 60 * 60)) % 24), // = soat;
-      minutes = Math.floor((timer / (1000 / 60)) % 60), // = minut
-      seconds = Math.floor((timer / 1000) % 60); // = sekund
+    let days, hours, minutes, seconds;
+    const timer = Date.parse(endTime) - Date.parse(new Date()); // biz bergan vaqtdan hozirgi vaqtni ayirish
 
+    if (timer <= 0) {
+      days = 0;
+      hours = 0;
+      minutes = 0;
+      seconds = 0;
+    } else {
+      days = Math.floor(timer / (1000 * 60 * 60 * 24)); // = kun,
+      hours = Math.floor((timer / (1000 * 60 * 60)) % 24); // = soat;
+      minutes = Math.floor((timer / (1000 / 60)) % 60); // = minut
+      seconds = Math.floor((timer / 1000) % 60); // = sekund
+    }
     // return { timer: timer, days: days, hours: hours, minutes: minutes, seconds:seconds }; // eski usul
     return { timer, days, hours, minutes, seconds }; // ES8 yangi usul o'zgaruvchi nomlari bilan bir-xil bo'lishi kerak
   }
