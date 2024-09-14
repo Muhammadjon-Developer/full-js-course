@@ -56,7 +56,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     if (timer <= 0) {
       days = 0;
-      hours = 0;
+      hours = 0;    
       minutes = 0;
       seconds = 0;
     } else {
